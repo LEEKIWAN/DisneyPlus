@@ -11,7 +11,10 @@ import SwiftUI
 struct DisneyPlusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let tabViewRouter = TabViewRouter()
+            
+            SplashView()
+                .environmentObject(tabViewRouter)
         }
     }
 }

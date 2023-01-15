@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8330AAEA29718A0C008A46F6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAE929718A0C008A46F6 /* Color.swift */; };
+		8330AAF029718AD7008A46F6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAEB29718AD7008A46F6 /* Profile.swift */; };
+		8330AAF129718AD7008A46F6 /* SearchCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAEC29718AD7008A46F6 /* SearchCategory.swift */; };
+		8330AAF229718AD7008A46F6 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAED29718AD7008A46F6 /* MovieSection.swift */; };
+		8330AAF329718AD7008A46F6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAEE29718AD7008A46F6 /* Movie.swift */; };
+		8330AAF429718AD7008A46F6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAEF29718AD7008A46F6 /* Channel.swift */; };
+		8330AAF629718C0F008A46F6 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAF529718C0F008A46F6 /* BackgroundGradientView.swift */; };
+		8330AAF929719AD9008A46F6 /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAF829719AD9008A46F6 /* LogoHeaderView.swift */; };
+		8330AAFB29719B51008A46F6 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAFA29719B51008A46F6 /* ChannelView.swift */; };
+		8330AAFD29719FE5008A46F6 /* MovieSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAFC29719FE5008A46F6 /* MovieSectionView.swift */; };
+		8330AAFF2971A44B008A46F6 /* SqureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AAFE2971A44B008A46F6 /* SqureButton.swift */; };
+		8330AB032973B41E008A46F6 /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AB022973B41E008A46F6 /* CarouselItemView.swift */; };
+		8330AB052973B5DE008A46F6 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330AB042973B5DE008A46F6 /* CarouselView.swift */; };
 		83688A8429713ABA00E2CF33 /* DisneyPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688A8329713ABA00E2CF33 /* DisneyPlusApp.swift */; };
 		83688A8629713ABA00E2CF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688A8529713ABA00E2CF33 /* ContentView.swift */; };
 		83688A8829713ABA00E2CF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83688A8729713ABA00E2CF33 /* Assets.xcassets */; };
 		83688A8B29713ABA00E2CF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83688A8A29713ABA00E2CF33 /* Preview Assets.xcassets */; };
+		83688A9929713B7A00E2CF33 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 83688A9829713B7A00E2CF33 /* SwiftyGif */; };
+		83688A9B29713C1200E2CF33 /* disneyPlusAnimated.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83688A9A29713C1200E2CF33 /* disneyPlusAnimated.gif */; };
+		83688A9D29713C2E00E2CF33 /* SplashRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688A9C29713C2E00E2CF33 /* SplashRepresentableView.swift */; };
+		83688A9F29713D7300E2CF33 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688A9E29713D7300E2CF33 /* SplashView.swift */; };
+		83688AA12971487400E2CF33 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AA02971487400E2CF33 /* HomeView.swift */; };
+		83688AA32971487A00E2CF33 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AA22971487A00E2CF33 /* SearchView.swift */; };
+		83688AA52971487F00E2CF33 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AA42971487F00E2CF33 /* DownloadsView.swift */; };
+		83688AA72971488800E2CF33 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AA62971488800E2CF33 /* ProfileView.swift */; };
+		83688AA9297148A700E2CF33 /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AA8297148A700E2CF33 /* TabViewRouter.swift */; };
+		83688AAB2971491F00E2CF33 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AAA2971491F00E2CF33 /* TabBarIcon.swift */; };
+		83688AAD29714D1D00E2CF33 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AAC29714D1D00E2CF33 /* TabBarView.swift */; };
+		83688AB02971526800E2CF33 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688AAF2971526800E2CF33 /* UIScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8330AAE929718A0C008A46F6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8330AAEB29718AD7008A46F6 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8330AAEC29718AD7008A46F6 /* SearchCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCategory.swift; sourceTree = "<group>"; };
+		8330AAED29718AD7008A46F6 /* MovieSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
+		8330AAEE29718AD7008A46F6 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8330AAEF29718AD7008A46F6 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		8330AAF529718C0F008A46F6 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		8330AAF829719AD9008A46F6 /* LogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
+		8330AAFA29719B51008A46F6 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		8330AAFC29719FE5008A46F6 /* MovieSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSectionView.swift; sourceTree = "<group>"; };
+		8330AAFE2971A44B008A46F6 /* SqureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqureButton.swift; sourceTree = "<group>"; };
+		8330AB022973B41E008A46F6 /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
+		8330AB042973B5DE008A46F6 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		83688A8029713ABA00E2CF33 /* DisneyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83688A8329713ABA00E2CF33 /* DisneyPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyPlusApp.swift; sourceTree = "<group>"; };
 		83688A8529713ABA00E2CF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83688A8729713ABA00E2CF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83688A8A29713ABA00E2CF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83688A9A29713C1200E2CF33 /* disneyPlusAnimated.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = disneyPlusAnimated.gif; sourceTree = "<group>"; };
+		83688A9C29713C2E00E2CF33 /* SplashRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRepresentableView.swift; sourceTree = "<group>"; };
+		83688A9E29713D7300E2CF33 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		83688AA02971487400E2CF33 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83688AA22971487A00E2CF33 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		83688AA42971487F00E2CF33 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		83688AA62971488800E2CF33 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		83688AA8297148A700E2CF33 /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		83688AAA2971491F00E2CF33 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		83688AAC29714D1D00E2CF33 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		83688AAF2971526800E2CF33 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +75,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83688A9929713B7A00E2CF33 /* SwiftyGif in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8330AAF729719AC1008A46F6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				83688AAA2971491F00E2CF33 /* TabBarIcon.swift */,
+				83688AAC29714D1D00E2CF33 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		83688A7729713ABA00E2CF33 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +110,14 @@
 		83688A8229713ABA00E2CF33 /* DisneyPlus */ = {
 			isa = PBXGroup;
 			children = (
+				83688AAE2971525F00E2CF33 /* extensions */,
+				83688A9129713AE000E2CF33 /* gif */,
+				83688A9229713AE300E2CF33 /* utils */,
+				83688A9329713AE600E2CF33 /* components */,
+				83688A9429713AEC00E2CF33 /* views */,
+				83688A9529713AF000E2CF33 /* models */,
+				83688A9629713AFC00E2CF33 /* routers */,
 				83688A8329713ABA00E2CF33 /* DisneyPlusApp.swift */,
-				83688A8529713ABA00E2CF33 /* ContentView.swift */,
 				83688A8729713ABA00E2CF33 /* Assets.xcassets */,
 				83688A8929713ABA00E2CF33 /* Preview Content */,
 			);
@@ -65,6 +130,87 @@
 				83688A8A29713ABA00E2CF33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83688A9129713AE000E2CF33 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				83688A9A29713C1200E2CF33 /* disneyPlusAnimated.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		83688A9229713AE300E2CF33 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		83688A9329713AE600E2CF33 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8330AAF729719AC1008A46F6 /* TabBar */,
+				8330AAF529718C0F008A46F6 /* BackgroundGradientView.swift */,
+				8330AAF829719AD9008A46F6 /* LogoHeaderView.swift */,
+				8330AAFA29719B51008A46F6 /* ChannelView.swift */,
+				8330AAFC29719FE5008A46F6 /* MovieSectionView.swift */,
+				8330AAFE2971A44B008A46F6 /* SqureButton.swift */,
+				8330AB022973B41E008A46F6 /* CarouselItemView.swift */,
+				8330AB042973B5DE008A46F6 /* CarouselView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		83688A9429713AEC00E2CF33 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				83688AB12971533800E2CF33 /* SplashView */,
+				83688A8529713ABA00E2CF33 /* ContentView.swift */,
+				83688AA02971487400E2CF33 /* HomeView.swift */,
+				83688AA22971487A00E2CF33 /* SearchView.swift */,
+				83688AA42971487F00E2CF33 /* DownloadsView.swift */,
+				83688AA62971488800E2CF33 /* ProfileView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		83688A9529713AF000E2CF33 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8330AAEF29718AD7008A46F6 /* Channel.swift */,
+				8330AAEE29718AD7008A46F6 /* Movie.swift */,
+				8330AAED29718AD7008A46F6 /* MovieSection.swift */,
+				8330AAEB29718AD7008A46F6 /* Profile.swift */,
+				8330AAEC29718AD7008A46F6 /* SearchCategory.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		83688A9629713AFC00E2CF33 /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				83688AA8297148A700E2CF33 /* TabViewRouter.swift */,
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		83688AAE2971525F00E2CF33 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8330AAE929718A0C008A46F6 /* Color.swift */,
+				83688AAF2971526800E2CF33 /* UIScreen.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		83688AB12971533800E2CF33 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				83688A9C29713C2E00E2CF33 /* SplashRepresentableView.swift */,
+				83688A9E29713D7300E2CF33 /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +229,9 @@
 			dependencies = (
 			);
 			name = DisneyPlus;
+			packageProductDependencies = (
+				83688A9829713B7A00E2CF33 /* SwiftyGif */,
+			);
 			productName = DisneyPlus;
 			productReference = 83688A8029713ABA00E2CF33 /* DisneyPlus.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 83688A7729713ABA00E2CF33;
+			packageReferences = (
+				83688A9729713B7A00E2CF33 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
 			productRefGroup = 83688A8129713ABA00E2CF33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83688A9B29713C1200E2CF33 /* disneyPlusAnimated.gif in Resources */,
 				83688A8B29713ABA00E2CF33 /* Preview Assets.xcassets in Resources */,
 				83688A8829713ABA00E2CF33 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +290,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83688AA72971488800E2CF33 /* ProfileView.swift in Sources */,
+				8330AB032973B41E008A46F6 /* CarouselItemView.swift in Sources */,
+				83688AAD29714D1D00E2CF33 /* TabBarView.swift in Sources */,
+				8330AAF229718AD7008A46F6 /* MovieSection.swift in Sources */,
+				8330AAFD29719FE5008A46F6 /* MovieSectionView.swift in Sources */,
+				8330AAFF2971A44B008A46F6 /* SqureButton.swift in Sources */,
 				83688A8629713ABA00E2CF33 /* ContentView.swift in Sources */,
+				8330AAF029718AD7008A46F6 /* Profile.swift in Sources */,
+				83688AA9297148A700E2CF33 /* TabViewRouter.swift in Sources */,
+				8330AAEA29718A0C008A46F6 /* Color.swift in Sources */,
+				8330AB052973B5DE008A46F6 /* CarouselView.swift in Sources */,
+				8330AAF429718AD7008A46F6 /* Channel.swift in Sources */,
+				83688A9F29713D7300E2CF33 /* SplashView.swift in Sources */,
+				83688A9D29713C2E00E2CF33 /* SplashRepresentableView.swift in Sources */,
+				8330AAF129718AD7008A46F6 /* SearchCategory.swift in Sources */,
+				83688AA12971487400E2CF33 /* HomeView.swift in Sources */,
+				8330AAFB29719B51008A46F6 /* ChannelView.swift in Sources */,
+				83688AB02971526800E2CF33 /* UIScreen.swift in Sources */,
+				83688AAB2971491F00E2CF33 /* TabBarIcon.swift in Sources */,
+				83688AA52971487F00E2CF33 /* DownloadsView.swift in Sources */,
+				83688AA32971487A00E2CF33 /* SearchView.swift in Sources */,
+				8330AAF929719AD9008A46F6 /* LogoHeaderView.swift in Sources */,
+				8330AAF629718C0F008A46F6 /* BackgroundGradientView.swift in Sources */,
 				83688A8429713ABA00E2CF33 /* DisneyPlusApp.swift in Sources */,
+				8330AAF329718AD7008A46F6 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +515,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83688A9729713B7A00E2CF33 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83688A9829713B7A00E2CF33 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83688A9729713B7A00E2CF33 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83688A7829713ABA00E2CF33 /* Project object */;
 }
